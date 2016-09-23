@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<script src="http://www.w3schools.com/lib/w3data.js">
+jQuery(document).ready(function($) {  
+
+// site preloader -- also uncomment the div in the header and the css style for #preloader
+$(window).load(function(){
+    $('#preloader').fadeOut('slow',function(){$(this).remove();});
+});
+
+});
+</script>
+<head>
+<meta charset="UTF-8">
+<title>Testing</title>
+<link rel="stylesheet" href="home.css">
+</head>
+<body>
+<div id="preloader"></div>
+  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+   <tr>
+    <td>
+     <font class="content main_content">
+  Hello World;
+     </font>
+    </td>
+   </tr>
+  </table>
+  <div w3-include-html="http://customers.anpasia.com/jas/0922/menu.html"></div>
+  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+   <tr>
+    <td class="p_bottom30 p_top20">
+     <table width="400" border="0" cellpadding="0" cellspacing="0" class="rsd" align="center">
+      <tr>
+       <td style="padding:20px;" class="p_none">
+     <img src="http://customers.anpasia.com/jas/0922/image/poster1.jpg" width="100%">
+       </td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td class="p_bottom30">
+     <table width="400" border="0" cellpadding="0" cellspacing="0" class="rsd" align="center">
+      <tr>
+       <td style="padding:20px;" class="p_none">
+     <img src="http://customers.anpasia.com/jas/0922/image/poster2.jpg" width="100%">
+       </td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+   <tr>
+    <td class="background">
+     <table width="100%" border="0" cellpadding="0" cellspacing="0" class="rsd" align="center">
+      <tr>
+       <td align="center">
+        <a href="0922.html"><div id="triangle-middleleft"></div></a>
+       </td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+  </table>
+  <script>
+w3IncludeHTML();
+</script>
+</body>
+</html>
+
