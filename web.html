@@ -129,7 +129,7 @@ $(window).load(function(){
       <tr>
        <td style="padding:20px;" class="p_none">
        
-         <img id="myImg" alt="EDM 0" src="https://raw.githubusercontent.com/jasyiu/portfolio/gh-pages/images/edm0.png" img="https://raw.githubusercontent.com/jasyiu/portfolio/gh-pages/images/edm_sample0.jpg" width="100%">
+         <img id="myImg" alt="EDM 0" src="https://raw.githubusercontent.com/jasyiu/portfolio/gh-pages/images/edm0.png" dp="https://raw.githubusercontent.com/jasyiu/portfolio/gh-pages/images/edm_sample0.jpg" width="100%">
  
          <!-- The Modal -->
          <div id="myModal" class="modal">
@@ -190,7 +190,7 @@ var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
     modal.style.display = "block";
-    modalImg.src = this.img;
+    modalImg.src = this.dp;
     captionText.innerHTML = this.alt;
 }
 
