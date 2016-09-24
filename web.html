@@ -144,7 +144,7 @@ $(window).load(function(){
      <table width="200" border="0" cellpadding="0" cellspacing="0" class="rsd" align="left">
       <tr>
        <td style="padding:20px;" class="p_none">
-     <img src="https://raw.githubusercontent.com/jasyiu/portfolio/gh-pages/images/edm1.png" width="100%">
+     <img id="trigger-alert" src="https://raw.githubusercontent.com/jasyiu/portfolio/gh-pages/images/edm1.png" width="100%">
        </td>
    </tr>
      </table>
@@ -181,6 +181,17 @@ $(window).load(function(){
    </tr>
   </table>
 <script>
+$(document).ready(function() {
+    $('#trigger-alert').click(function() {
+        var options = {
+            title: 'Title',
+            text: '<img width="250" height="200" src="http://lorempixel.com/400/200/sports/2/">',
+            html: true
+        };
+        swal(options);
+    });
+});
+
 // Get the modal
 var modal = document.getElementById('myModal');
 
