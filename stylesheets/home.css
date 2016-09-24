@@ -174,7 +174,6 @@ div.banner {
 }
 
 #myImg:hover {
-	background-color:#000000;
 	opacity: 0.5;
 }
 
@@ -199,7 +198,6 @@ div.banner {
     display: block;
     width: 80%;
     max-width: 700px;
-    background: url(https://raw.githubusercontent.com/jasyiu/portfolio/gh-pages/images/resume.png) no-repeat;
 }
 
 /* Caption of Modal Image */
