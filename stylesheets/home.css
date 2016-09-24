@@ -167,13 +167,13 @@ div.banner {
 	background-size: 100% auto;
   }
   
-  #myImg {
+  #myImg, #myImg1, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-#myImg:hover {
+#myImg:hover, #myImg1:hover, #myImg2:hover, #myImg3:hover, #myImg4:hover, #myImg5:hover, #myImg6:hover {
 	opacity: 0.5;
 }
 
