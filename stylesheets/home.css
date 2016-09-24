@@ -99,7 +99,7 @@ div.resume:hover, div.card:hover, div.poster:hover, div.banner:hover, div.web:ho
 div.resume {
     width: 200px;
     height: 285px;
-    background: url(http://customers.anpasia.com/jas/0922/image/resume.png) no-repeat;
+    background: url(https://github.com/jasyiu/portfolio/blob/gh-pages/images/resume.png) no-repeat;
 	-webkit-transition: 2s ease-in-out;
     -moz-transition: 2s ease-in-out;
     -o-transition: 2s ease-in-out;
@@ -113,7 +113,7 @@ div.resume {
 div.card {
     width: 184px;
     height: 123px;
-    background: url(http://customers.anpasia.com/jas/0922/image/card.png) no-repeat;
+    background: url(https://github.com/jasyiu/portfolio/blob/gh-pages/images/card.png) no-repeat;
     -webkit-transition: 2s ease-in-out;
     -moz-transition: 2s ease-in-out;
     -o-transition: 2s ease-in-out;
@@ -127,7 +127,7 @@ div.card {
 div.poster {
     width: 111px;
     height: 147px;
-    background: url(http://customers.anpasia.com/jas/0922/image/poster.png) no-repeat;
+    background: url(https://github.com/jasyiu/portfolio/blob/gh-pages/images/poster.png) no-repeat;
     -webkit-transition: 2s ease-in-out;
     -moz-transition: 2s ease-in-out;
     -o-transition: 2s ease-in-out;
@@ -141,7 +141,7 @@ div.poster {
 div.banner {
     width: 300px;
     height: 92px;
-    background: url(http://customers.anpasia.com/jas/0922/image/banner.png) no-repeat;
+    background: url(https://github.com/jasyiu/portfolio/blob/gh-pages/images/banner.png) no-repeat;
     -webkit-transition: 2s ease-in-out;
     -moz-transition: 2s ease-in-out;
     -o-transition: 2s ease-in-out;
@@ -155,7 +155,7 @@ div.banner {
  div.web {
     width: 111px;
     height: 212px;
-    background: url(http://customers.anpasia.com/jas/0922/image/web.png) no-repeat;
+    background: url(https://github.com/jasyiu/portfolio/blob/gh-pages/images/web.png) no-repeat;
     -webkit-transition: 2s ease-in-out;
     -moz-transition: 2s ease-in-out;
     -o-transition: 2s ease-in-out;
