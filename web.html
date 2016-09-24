@@ -229,6 +229,22 @@ $(window).load(function(){
      </table>
      
     </td>
+        <td>
+     <table width="200" border="0" cellpadding="0" cellspacing="0" class="rsd" align="left">
+      <tr>
+       <td style="padding:20px;" class="p_none">
+     <img id="myImg6" src="https://raw.githubusercontent.com/jasyiu/portfolio/gh-pages/images/edm6.png" alt="https://raw.githubusercontent.com/jasyiu/portfolio/gh-pages/images/edm_sample6.jpg" width="100%">
+              <div id="myModal" class="modal">
+         <span class="close">×</span>
+         <img class="modal-content" id="img01">
+         <div id="caption"></div>
+         </div>
+
+       </td>
+      </tr>
+     </table>
+     
+    </td>
    </tr>
    
    <tr>
@@ -375,6 +391,29 @@ var modal = document.getElementById('myModal');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById('myImg5');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.alt;
+    captionText.innerHTML = "These EDM are coded by me, and some of them are designed by the third party.";
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+</script>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg6');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
