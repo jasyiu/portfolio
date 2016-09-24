@@ -1,17 +1,12 @@
 <!doctype html>
 <html>
 <head>
-<script src="http://www.w3schools.com/lib/w3data.js">
-jQuery(document).ready(function($) {  
-
-// site preloader -- also uncomment the div in the header and the css style for #preloader
-$(window).load(function(){
-    $('#preloader').fadeOut('slow',function(){$(this).remove();});
-});
-
-});
-
-</script>
+<script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("menu.html"); 
+    });
+    </script>
 <meta charset="UTF-8">
 <title>Testing</title>
 <link rel="stylesheet" href="https://jasyiu.github.io/portfolio/stylesheets/home.css">
@@ -27,7 +22,7 @@ $(window).load(function(){
     </td>
    </tr>
   </table>
-  <div w3-include-html="https://jasyiu.github.io/portfolio/menu.html"></div>
+  <div id="includedContent"></div>
   <table width="100%" border="0" cellpadding="0" cellspacing="0">
    <tr>
     <td class="p_bottom30">
